@@ -1,6 +1,7 @@
 // runs in active tab
 
 document.addEventListener("DOMContentLoaded", () => {
+  if (window.location.toString().indexOf('microwavethis.com') != -1) return;
 
 const obscurePage = () => {
   let obscenity = document.createElement('div');

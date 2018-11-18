@@ -26,7 +26,7 @@ onload = () => {
     }
 
     didEndLoad = (e) => {
-        
+        document.querySelector('#address').value = e.target.src;
     }
 
     didGetRedirect = (e) => {
