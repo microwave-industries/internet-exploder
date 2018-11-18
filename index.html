@@ -93,18 +93,31 @@
         height: 100%;
         width: 100%;
       }
+
+      #menu-bar span{
+        padding-left: 5px;
+      }
     </style>
     <script src="browser.js"></script>
   </head>
   <body>
     <div id="headbar">
+      <div id="menu-bar" class="section">
+        <span>File</span>
+        <span>Edit</span>
+        <span>Options</span>
+        <span>Help</span>
+      </div>
       <div id="nav-row" class="section">
         <div id="back" class="nav-button"><img src="icons/prev.gif" /></div>
         <div id="fwd" class="nav-button"><img src="icons/next.gif" /></div>
         <div id="stop" class="nav-button"><img src="icons/stop.gif" /></div>
         <div id="refresh" class="nav-button"><img src="icons/refresh.gif" /></div>
         <div class="separator"></div>
-
+        <div class="nav-button broken"><img src="icons/favourites.gif" /></div>
+        <div class="nav-button broken"><img src="icons/history.gif" /></div>
+        <div class="nav-button broken"><img src="icons/search.gif" /></div>
+        <div class="nav-button broken"><img src="icons/chanels.gif" /></div>
       </div>
       <div id="address-row">
         <div id="address-box" class="section">
